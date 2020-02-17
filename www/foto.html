@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+  
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+   <script src="components/materialize.min.js"></script>
+<script src="components/script.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col s12">
+
+          <img id="imagem" src="imagens/b.jpg">
+
+      <form id="editImage">
+        
+              <label for="opa"> Opacidade </label>
+            <input class="range" id="opaci" name="opa" type="range" min="1" max="100" value="1" onchange="editImage();"> 
+            
+            <label for="sat"> Saturação</label>
+            <input class="range" id="saturacao" name="sat" type="range" min="1" max="100" value="1" onchange="editImage();"> 
+              
+              <label for="gs"> Escala </label>
+            <input class="range" id="escala" name="gs" type="range" min="1" max="100" value="1"onchange="editImage();"> 
+              
+              <label for="blu">Blur</label>
+            <input  class="range" id="blur" name="blu" type="range" min="1" max="50" value="1"onchange="editImage();">                   
+        </form>
+
+    </div>  
+  </div>
+
+
+
+</div>
+</body>
+</html>

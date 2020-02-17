@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+  
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+   <script src="components/materialize.min.js"></script>
+<script src="components/script.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("be");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  </script>
+
+</head>
+<body>
+  
+<div class="carousel carousel-slider center" >
+ 
+
+    <div class="carousel-item" >
+      <h2>Mulher</h2>
+        <a class="btn waves-effect white grey-text darken-text-2" href="imc.html">IMC</a>
+    <img src="imagens/b.jpg">
+    </div>
+
+    <div class="carousel-item " >
+      <h2>do</h2>
+        <a class="btn waves-effect white grey-text darken-text-2" onclick="myFunction()" id="foto" href="foto.html">EDITAR FOTO</a>
+    <img id="imagem" src="imagens/b.jpg">
+    </div>
+
+    <div class="carousel-item " >
+      <h2>Paulo</h2>
+        <a class="btn waves-effect white grey-text darken-text-2" href="geo.html">GEOLOCALIZACAO</a>
+    <img src="imagens/b.jpg">
+    </div>
+
+    <div class="carousel-item ">
+      <h2>Montier</h2>
+        <a class="btn waves-effect white grey-text darken-text-2" href="alert.html">ALERT</a>
+    <img src="imagens/b.jpg">
+    </div>
+
+  </div>
+
+  
+
+
+</body>
+</html>
